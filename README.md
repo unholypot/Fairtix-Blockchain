@@ -1,6 +1,6 @@
 # FairTix — Blockchain Ticketing System
  
-A decentralised event ticketing system built with Solidity for the IFB452 Blockchain Technology unit at QUT. FairTix uses smart contracts to manage ticket issuance, ownership, and resale — reducing fraud and scalping by enforcing price caps directly on-chain.
+A decentralised event ticketing system built with Solidity for the IFB452 Blockchain Technology unit at QUT. FairTix uses smart contracts to manage ticket issuance, ownership, and resale reducing fraud and scalping by enforcing price caps directly on-chain.
  
 ## Contracts (so far)
  
