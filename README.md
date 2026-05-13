@@ -31,3 +31,30 @@ List for resale → Buy resale ticket → Verify new ownership
 Attempt overselling → Verify supply enforcement
 Attempt price cap violation → Verify resale restriction
 Mark ticket used → Verify transfer prevention
+
+
+
+## This is how u can use the factory contract to deploy all 3 of them
+### Step 1: Deploy the Factory Contract
+3. Select "FairTixFactory" from the contract dropdown
+4. Click "Deploy" 
+
+### Step 2: Deploy the System
+1. After deployment, locate the "deploy" function in the factory contract
+2. Click the "deploy" button to deploy all three contracts
+3. Wait for the transaction to complete
+
+### Step 3: Get Contract Addresses
+1. After deployment completes, call `getAddresses()` function
+2. Copy the three returned addresses:
+   - EventManager address
+   - TicketToken address
+   - ResaleController address
+
+### Step 4: Load Contracts in Remix
+1. For each contract you want to interact with:
+   - Go to "Deploy & Run Transactions" tab
+   - Select the contract (EventManager, TicketToken, or ResaleController)
+   - Click "At Address" button
+   - Paste the corresponding address from Step 3
+   - Click "At Address" to load the contract instance
